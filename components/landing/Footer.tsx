@@ -46,6 +46,12 @@ export function Footer() {
             </h4>
             <ul className="space-y-4">
               <li>
+                <Link href="/team" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Our Team</Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Contact Us</Link>
+              </li>
+              <li>
                 <Link href="/privacy-policy" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Privacy Policy</Link>
               </li>
               <li>
