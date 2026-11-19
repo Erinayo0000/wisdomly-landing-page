@@ -4,7 +4,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
 import Link from "next/link";
-import { Sparkles, ArrowRight } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 export default function Home() {
   return (
