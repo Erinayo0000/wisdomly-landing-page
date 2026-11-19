@@ -44,7 +44,7 @@ export default function Home() {
           </p>
           <StoreButtons size="large" />
           <p className="mt-8 text-xs text-ink-300 font-bold tracking-[0.2em] uppercase">
-            FREE TO USE • NO ADS • PUBLISHED BY K’ ELEGANCE UNI. (SLEY LIMITED)
+            FREE TO USE • NO ADS
           </p>
         </div>
       </section>

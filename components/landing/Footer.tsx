@@ -85,11 +85,25 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-zinc-400 font-medium">
-            © 2026 Wisdomly. Published by K’ ELEGANCE UNI. under parent company Sley Limited. All rights reserved.
-          </p>
-          <p className="text-sm text-zinc-400 font-medium flex items-center gap-1">
+        <div className="pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left">
+          <div className="space-y-1">
+            <p className="text-sm text-zinc-500 dark:text-zinc-400 font-medium">
+              © 2026 Wisdomly. Published by{" "}
+              <Link
+                href="https://play.google.com/store/apps/developer?id=K%E2%80%99+ELEGANCE+UNI."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-zinc-800 dark:text-zinc-200 font-semibold underline decoration-zinc-300 dark:decoration-zinc-700 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+              >
+                K’ ELEGANCE UNI.
+              </Link>
+              . All rights reserved.
+            </p>
+            <p className="text-xs text-zinc-400 dark:text-zinc-500 font-medium">
+              A subsidiary of SLEY LTD · Wisdom, one quote at a time.
+            </p>
+          </div>
+          <p className="text-sm text-zinc-400 font-medium flex items-center gap-1 shrink-0">
             Wisdom, <span className="text-brand-500">one quote at a time.</span>
           </p>
         </div>

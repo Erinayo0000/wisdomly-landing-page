@@ -19,7 +19,7 @@ export default function Terms() {
 
               <div className="prose dark:prose-invert prose-zinc prose-lg max-w-none font-sans">
                 <p className="lead text-xl text-zinc-600 dark:text-zinc-400 font-medium leading-relaxed mb-12">
-                  These Terms of Service constitute a legally binding agreement between you and Wisdomly (published by K’ ELEGANCE UNI. under parent company Sley Limited) concerning your access to and use of the Service.
+                  These Terms of Service constitute a legally binding agreement between you and Wisdomly (published by K’ ELEGANCE UNI., a subsidiary of SLEY LTD) concerning your access to and use of the Service.
                 </p>
 
                 <div className="grid gap-12">

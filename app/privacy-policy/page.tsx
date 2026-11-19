@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
 
               <div className="prose dark:prose-invert prose-zinc prose-lg max-w-none font-sans">
                 <p className="lead text-xl text-zinc-600 dark:text-zinc-400 font-medium leading-relaxed mb-12">
-                  At Wisdomly ("we," "our," or "us"), published by K’ ELEGANCE UNI. under parent company Sley Limited, we believe your inspiration is personal. 
+                  At Wisdomly ("we," "our," or "us"), published by K’ ELEGANCE UNI. (a subsidiary of SLEY LTD), we believe your inspiration is personal. 
                   We are committed to protecting your privacy and ensuring you have a safe, harmless experience.
                 </p>
 

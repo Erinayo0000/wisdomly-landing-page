@@ -66,9 +66,6 @@ export function Hero() {
             className="mt-8"
           >
             <StoreButtons />
-            <p className="mt-3 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
-              Published by <span className="text-zinc-600 dark:text-zinc-300 font-semibold">K’ ELEGANCE UNI.</span> under <span className="text-zinc-600 dark:text-zinc-300 font-semibold">Sley Limited</span>
-            </p>
           </motion.div>
         </div>
 
