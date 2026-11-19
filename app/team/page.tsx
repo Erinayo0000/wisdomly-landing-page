@@ -20,10 +20,10 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Erinayo Olusanmi",
+    name: "Sean Mike",
     role: "Chief Executive Officer & Founder",
     tag: "Executive Leadership",
-    bio: "Guiding the vision and editorial direction of Wisdomly. Dedicated to building calm, distraction-free technology that helps people pause and reflect every day.",
+    bio: "Guiding the vision and strategic direction of Wisdomly. Passionate about building calm, distraction-free technology that helps people pause and reflect every day.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
     email: "hello@wisdomly.top",
     twitter: "https://twitter.com/wisdomlyapp",
@@ -45,36 +45,6 @@ const teamMembers: TeamMember[] = [
     tag: "Design & UX",
     bio: "Championing calm computing and clean typography. Designing interactions that respect your time and keep timeless wisdom front and center.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
-    email: "hello@wisdomly.top",
-    twitter: "https://twitter.com/wisdomlyapp",
-    linkedin: "https://linkedin.com",
-  },
-  {
-    name: "Kelechi Adeleke",
-    role: "Lead Mobile Architect",
-    tag: "Engineering",
-    bio: "Building our offline-first Flutter and mobile systems. Committed to zero trackers, lightweight app bundles, and instant offline reliability.",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80",
-    email: "hello@wisdomly.top",
-    twitter: "https://twitter.com/wisdomlyapp",
-    linkedin: "https://linkedin.com",
-  },
-  {
-    name: "Sofia Rodriguez",
-    role: "Head of Community & Support",
-    tag: "Operations & Relations",
-    bio: "Connecting directly with our readers worldwide, gathering feedback, and ensuring every member of our community receives attentive support.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80",
-    email: "hello@wisdomly.top",
-    twitter: "https://twitter.com/wisdomlyapp",
-    linkedin: "https://linkedin.com",
-  },
-  {
-    name: "David Vance",
-    role: "Mindfulness & Editorial Advisor",
-    tag: "Advisory Board",
-    bio: "Advising our product team on digital wellness, habit formation, and intentional stillness in an otherwise noisy online landscape.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=800&q=80",
     email: "hello@wisdomly.top",
     twitter: "https://twitter.com/wisdomlyapp",
     linkedin: "https://linkedin.com",
@@ -140,7 +110,7 @@ export default function TeamPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {teamMembers.map((member, idx) => (
               <motion.div
                 key={member.name}
