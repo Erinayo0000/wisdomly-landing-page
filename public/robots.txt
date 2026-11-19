@@ -1,0 +1,17 @@
+# Allow all web crawlers and search engines
+User-agent: *
+Allow: /
+
+# Specifically allow Amazon / AWS validation crawlers
+User-agent: Amazonbot
+Allow: /
+
+User-agent: AWS-Crawler
+Allow: /
+
+User-agent: Amazon-Route53-Health-Check-Service
+Allow: /
+
+# Host and Sitemap
+Host: https://www.wisdomly.top
+Sitemap: https://www.wisdomly.top/sitemap.xml
