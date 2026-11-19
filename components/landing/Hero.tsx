@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Sparkles, ArrowRight, Quote, Share2 } from "lucide-react";
+import { StoreButtons } from "@/components/landing/StoreButtons";
 
 export function Hero() {
   const [isProcessing, setIsProcessing] = useState(false);
@@ -57,6 +58,18 @@ export function Hero() {
           >
             Wisdomly hands you hand-picked wisdom in short, memorable quotes. No noise, no tracking — just words worth keeping.
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.25 }}
+            className="mt-8"
+          >
+            <StoreButtons />
+            <p className="mt-3 text-xs text-zinc-400 dark:text-zinc-500 font-medium">
+              Published by <span className="text-zinc-600 dark:text-zinc-300 font-semibold">K’ ELEGANCE UNI.</span> under <span className="text-zinc-600 dark:text-zinc-300 font-semibold">Sley Limited</span>
+            </p>
+          </motion.div>
         </div>
 
         {/* Interactive Demo Widget */}

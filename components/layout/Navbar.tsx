@@ -61,11 +61,13 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="#start"
-              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-zinc-950 dark:bg-zinc-100 dark:text-zinc-950 rounded-xl hover:scale-105 active:scale-95 transition-all shadow-xl shadow-brand-500/10"
+              href="https://play.google.com/store/apps/details?id=com.wisdomly.org"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-bold text-white bg-zinc-950 dark:bg-white dark:text-zinc-950 rounded-xl hover:scale-105 active:scale-95 transition-all shadow-xl shadow-brand-500/10"
             >
               <Sparkles size={16} className="mr-2 fill-current text-brand-400 dark:text-brand-600" />
-              Start Reading
+              Get on Google Play
             </Link>
           </div>
 
@@ -100,11 +102,13 @@ export function Navbar() {
                 </Link>
               ))}
               <Link
-                href="#start"
+                href="https://play.google.com/store/apps/details?id=com.wisdomly.org"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center w-full px-4 py-4 text-lg font-bold text-white bg-zinc-950 dark:bg-white dark:text-zinc-950 rounded-2xl shadow-xl"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                Start Reading
+                Get on Google Play
               </Link>
             </div>
           </motion.div>

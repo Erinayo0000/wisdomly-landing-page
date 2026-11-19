@@ -29,13 +29,20 @@ export function Footer() {
             </h4>
             <ul className="space-y-4">
               <li>
-                <Link href="#demo" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Live Demo</Link>
+                <Link href="https://play.google.com/store/apps/details?id=com.wisdomly.org" target="_blank" rel="noopener noreferrer" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors flex items-center gap-1">
+                  Google Play Store
+                </Link>
               </li>
               <li>
-                <Link href="#features" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Features</Link>
+                <span className="text-zinc-400 font-medium flex items-center gap-1.5">
+                  App Store <span className="text-[10px] px-2 py-0.5 rounded-full bg-brand-500/10 text-brand-600 dark:text-brand-400 font-bold">Coming Soon</span>
+                </span>
               </li>
               <li>
-                <Link href="#how-it-works" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">How it works</Link>
+                <Link href="/#features" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">Features</Link>
+              </li>
+              <li>
+                <Link href="/#how-it-works" className="text-zinc-500 hover:text-brand-600 font-medium transition-colors">How it works</Link>
               </li>
             </ul>
           </div>
@@ -80,7 +87,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-zinc-100 dark:border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-400 font-medium">
-            © 2026 Wisdomly. All rights reserved.
+            © 2026 Wisdomly. Published by K’ ELEGANCE UNI. under parent company Sley Limited. All rights reserved.
           </p>
           <p className="text-sm text-zinc-400 font-medium flex items-center gap-1">
             Wisdom, <span className="text-brand-500">one quote at a time.</span>

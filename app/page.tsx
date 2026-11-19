@@ -3,8 +3,7 @@ import { Features } from "@/components/landing/Features";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { FAQ } from "@/components/landing/FAQ";
 import { Footer } from "@/components/landing/Footer";
-import Link from "next/link";
-import { Sparkles } from "lucide-react";
+import { StoreButtons } from "@/components/landing/StoreButtons";
 
 export default function Home() {
   return (
@@ -43,17 +42,9 @@ export default function Home() {
           <p className="text-xl text-ink-200 mb-12 max-w-2xl mx-auto font-medium">
             Wisdomly is the calm, ad-free way to keep timeless insight close at hand.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <Link
-              href="#start"
-              className="inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-ink-950 bg-brand-400 rounded-2xl hover:bg-brand-300 transition-all shadow-2xl hover:scale-105 active:scale-95"
-            >
-              <Sparkles className="mr-3 fill-current text-ink-950" size={24} />
-              Start Reading
-            </Link>
-          </div>
+          <StoreButtons size="large" />
           <p className="mt-8 text-xs text-ink-300 font-bold tracking-[0.2em] uppercase">
-            FREE TO USE • NO ADS
+            FREE TO USE • NO ADS • PUBLISHED BY K’ ELEGANCE UNI. (SLEY LIMITED)
           </p>
         </div>
       </section>
